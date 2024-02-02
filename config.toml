@@ -1,0 +1,22 @@
+theme = "onedark"
+
+[editor]
+cursorline = true
+
+[editor.whitespace.render]
+space = "all"
+tab = "all"
+newline = "none"
+
+[editor.whitespace.characters]
+space = "·"
+nbsp = "⍽"
+tab = "→"
+newline = "⏎"
+tabpad = "·" # Tabs will look like "→···" (depending on tab width)
+
+[editor.indent-guides]
+render = true
+
+[editor.cursor-shape]
+insert = "bar"
