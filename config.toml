@@ -4,6 +4,14 @@ theme = "onedark"
 cursorline = true
 rulers = [ 80, 120 ]
 
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending", "file-type"]
+
+[editor.cursor-shape]
+insert = "bar"
+
 [editor.whitespace.render]
 space = "all"
 tab = "all"
@@ -14,7 +22,7 @@ space = "·"
 nbsp = "⍽"
 tab = "→"
 newline = "⏎"
-tabpad = "·" # Tabs will look like "→···" (depending on tab width)
+tabpad = "·"
 
 [editor.indent-guides]
 render = true
@@ -23,9 +31,6 @@ skip-levels = 1
 # character = "┆"
 character = "┊"
 # character = "⸽"
-
-[editor.cursor-shape]
-insert = "bar"
 
 [keys.normal]
 C-s = ":w"
