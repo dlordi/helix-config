@@ -1,4 +1,4 @@
-theme = "onedark"
+theme = "onedarker"
 
 [editor]
 cursorline = true
@@ -21,8 +21,8 @@ newline = "none"
 space = "·"
 nbsp = "⍽"
 tab = "→"
+tabpad = "→"
 newline = "⏎"
-tabpad = "·"
 
 [editor.indent-guides]
 render = true
