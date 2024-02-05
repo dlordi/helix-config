@@ -13,6 +13,7 @@ right = ["diagnostics", "selections", "position", "file-encoding", "file-line-en
 
 [editor.cursor-shape]
 insert = "bar"
+select = "underline"
 
 [editor.whitespace.render]
 space = "all"
