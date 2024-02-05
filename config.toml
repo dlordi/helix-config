@@ -1,8 +1,10 @@
 theme = "onedarker"
 
 [editor]
+line-number = "relative"
 cursorline = true
-rulers = [ 80, 120 ]
+true-color = true
+rulers = [80, 120]
 
 [editor.statusline]
 left = ["mode", "spinner"]
