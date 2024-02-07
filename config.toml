@@ -23,12 +23,14 @@ newline = "none"
 [editor.whitespace.characters]
 space = "·"
 nbsp = "⍽"
-tab = "→"
-tabpad = "→"
+# tab = "→"
+# tabpad = "→"
+tab = "―"
+tabpad = "―"
 newline = "⏎"
 
 [editor.indent-guides]
-render = true
+render = false
 skip-levels = 1
 # character = "╎"
 # character = "┆"
@@ -40,13 +42,10 @@ A-i = "move_line_up"
 A-k = "move_line_down"
 A-j = "move_char_left"
 A-l = "move_char_right"
-# C-s = ":w"
-# C-p = ":open ~/AppData/Roaming/helix/config.toml"
 
 [keys.insert]
 A-i = "move_line_up"
 A-k = "move_line_down"
 A-j = "move_char_left"
 A-l = "move_char_right"
-# C-s = ":w"
 j = { k = "normal_mode" } # Maps `jk` to exit insert mode
