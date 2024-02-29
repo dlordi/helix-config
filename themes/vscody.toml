@@ -50,7 +50,7 @@
 "warning" = { fg = "#D5B06B", modifiers = ["bold"] }
 "error" = { fg = "#D05C65", modifiers = ["bold"] }
 
-"ui.background" = { bg = "#1f1f1f" }
+"ui.background" = { bg = "#000000" }
 "ui.virtual" = { fg = "#ABB2BF" }
 "ui.virtual.indent-guide" = { fg = "#ABB2BF" }
 "ui.virtual.whitespace" = { fg = "#636C6E" }
