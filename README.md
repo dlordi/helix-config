@@ -6,5 +6,5 @@
 
 ```bat
 npm install --location=global pyright
-py -m pip install ruff-lsp
+py -m pip install -U ruff-lsp
 ```
