@@ -16,6 +16,12 @@ cd "%USERPROFILE%\Desktop\helix" && cargo install --path helix-term --locked
 cd "%USERPROFILE%\Desktop" && hx --help && cd "%USERPROFILE%\Desktop\helix"
 ```
 
+## restore syntax highlight
+
+```bat
+del %USERPROFILE%\.cargo\bin\hx.exe
+```
+
 ## add python support
 
 - requires `nodejs` (via `npm`) and `python`!!
